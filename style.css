@@ -1,0 +1,144 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  padding: 0;
+  width: 100%;
+  height: 90px;
+  border-bottom: 3px solid rgba(255,255,0,0.5);
+}
+.container{
+  width: 100%;
+  height: 100vh;
+  background: url(aaa.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: table;
+}
+.menu ul{
+  display: inline-flex;
+  margin: 50px;
+}
+.menu ul li{
+  list-style: none;
+  margin: 0 20px;
+  color: black;
+  cursor: pointer;
+}
+.active {
+  color: orange !important;
+  border: 2px solid orange;
+  border-radius: 4px;
+  padding: 0 10px;
+
+}
+.login-btn{
+  top: 40px;
+  right: 80px;
+  position: absolute;
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  background-image: linear-gradient(#42455a,#42455a),radial-gradient(circle at top left,#fd00da,#19d7f8);
+  background-origin: border-box;
+  background-clip: content-box,border-box;
+}
+.login-btn span{
+  display: block;
+  padding: 8px 22px;
+}
+.Banner{
+  width: 80%;
+  height: 70%;
+  top:120px;
+  left: 110px;
+  position: absolute;
+
+}
+.app-text{
+  width: 50%;
+  float: left;
+}
+.app-text h1{
+  font-size: 18px;
+  width: 100%;
+  position: relative;
+}
+.app-text p{
+  font-size: 14px;
+  width: 100%;
+}
+.app-picture{
+  width: 50%;
+  float: right;
+}
+.app-picture{
+  width: 100px;
+  margin-top: 50px;
+  margin-left: 50px;
+
+}
+.play-btn{
+  display: inline-flex;
+  color:#fff;
+  padding: 40px 0;
+}
+.play-btn-inner{
+  height: 50px;
+  width: 50px;
+  border: 2px solid transparent;
+  border-radius: 50px;
+  background-image: linear-gradient(#42455a,#42455a),radial-gradient(circle at top left,#fd00da,#19d7f8);
+  background-origin: border-box;
+  background-clip: content-box,border-box;
+  text-align: center;
+
+}
+.play-btn-inner .fa{
+  padding: 18px 0;
+  font-size: 13px;
+  cursor: pointer;
+}
+ small {
+  margin : auto 10px;
+  color: orange;
+  cursor: pointer;
+  letter-spacing: 3px;
+  font-size: 12px;
+
+}
+.quick-links{
+  left: -50px;
+  bottom: 0;
+  position: absolute;
+  background: orange;
+
+}
+.quick-links ul{
+
+  margin: 25px auto;
+  text-align:center;
+}
+.quick-links ul li{
+  list-style: none;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.quick-links ul li p{
+  margin-top: 15px;
+  font-size: 10px;
+  color: #fff
+}
+.quick-links ul li .fa{
+  font-size: 25px;
+  color: #fff
+}
